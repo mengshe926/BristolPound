@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "sdkVersion": "21.0.0",
+    "name": "Bristol Pound",
+    "version": "3.0.5",
+    "icon":"./assets/icon/ic_launcher.png",
+    "orientation": "portrait",
+    "slug": "bristolpound",
+    "privacy": "unlisted",
+    "ios": {
+      "bundleIdentifier": "org.bristolpound.mobile.rn.ios",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey" : "***REMOVED***"
+      }
+    },
+    "android": {
+      "package": "org.bristolpound.mobile.rn.android",
+      "versionCode": 1,
+      "config": {
+        "fabric": {
+          "apiKey": "***REMOVED***",
+          "buildSecret": "***REMOVED***"
+        },
+        "googleMaps" : {
+          "apiKey": "***REMOVED***"
+        }
+      }
+    }
+  }
+}

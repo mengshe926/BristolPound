@@ -1,0 +1,4 @@
+--compilers js:./TownPoundCore/test/compiler
+--require ./TownPoundCore/test/setup.js
+--recursive
+ TownPoundCore/test/**/*.js

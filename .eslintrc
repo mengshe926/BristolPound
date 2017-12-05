@@ -1,0 +1,41 @@
+{
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true,
+    "ecmaVersion": 6
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "globals": {
+    "Promise": true,
+    "__DEV__": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "brace-style": [2, "1tbs", { "allowSingleLine": true }],
+    "semi": [2, "never"],
+    "quotes": [2, "single"],
+    "strict": [2, "never"],
+    "jsx-quotes": [2, "prefer-single"],
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2,
+    "react/react-in-jsx-scope": 2,
+    "no-undef": 2,
+    "no-unused-vars": 0,
+    "comma-dangle": 0,
+    "no-console": 2,
+    "no-mixed-spaces-and-tabs": 0,
+    "key-spacing": 2,
+    "eol-last": 2,
+    "no-trailing-spaces": 2,
+    "space-before-blocks": 2,
+    "space-before-function-paren": 0,
+    "spaced-comment": 2
+  },
+  "plugins": [
+    "react"
+  ]
+}

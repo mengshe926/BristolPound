@@ -1,0 +1,3 @@
+[submodule "TownPoundCore"]
+	path = TownPoundCore
+	url = https://gitlab.com/TownPound/Cyclos/ScottLogic.mobile.react-native/TownPoundCore.git
